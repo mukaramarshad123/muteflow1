@@ -1,0 +1,20 @@
+# muteflow-web (Next.js)
+muteflow-web/node_modules/
+muteflow-web/.next/
+muteflow-web/out/
+muteflow-web/.vercel
+muteflow-web/.env*.local
+muteflow-web/*.tsbuildinfo
+muteflow-web/next-env.d.ts
+muteflow-web/.pnp
+muteflow-web/.yarn/install-state.gz
+muteflow-web/coverage
+muteflow-web/npm-debug.log*
+muteflow-web/yarn-debug.log*
+muteflow-web/yarn-error.log*
+muteflow-web/*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

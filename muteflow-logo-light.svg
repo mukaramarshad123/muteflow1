@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      .bg { fill: #FFFFFF; }
+      .wordmark { fill: #0A0A0B; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; letter-spacing: -0.045em; }
+      .accent { fill: #0A0A0B; }
+    </style>
+  </defs>
+  <rect class="bg" width="800" height="200"/>
+  
+  <!-- Primary wordmark -->
+  <text class="wordmark" x="80" y="125" font-size="110">muteflow</text>
+  
+  <!-- Signature accent: flow bar -->
+  <rect class="accent" x="80" y="145" width="640" height="3" rx="1.5"/>
+  
+  <!-- Signal dot -->
+  <circle class="accent" cx="735" cy="146.5" r="5"/>
+</svg>

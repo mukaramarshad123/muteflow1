@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <style>
+      .bg { fill: #0A0A0B; }
+      .mark { fill: #C4F547; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; letter-spacing: -0.05em; }
+    </style>
+  </defs>
+  <rect class="bg" width="256" height="256" rx="48"/>
+  <text class="mark" x="128" y="180" font-size="180" text-anchor="middle">m</text>
+</svg>
