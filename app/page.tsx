@@ -8,6 +8,8 @@ import { NonCompete } from "@/components/sections/NonCompete";
 import { Process } from "@/components/sections/Process";
 import { ScopeCTA } from "@/components/sections/ScopeCTA";
 import { ServiceStack } from "@/components/sections/ServiceStack";
+import { AdditionalServices } from "@/components/sections/AdditionalServices";
+import { friendServicesEnabled } from "@/lib/featureFlags";
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
       <main className="relative z-[2]">
         <Hero />
         <ServiceStack />
+        {friendServicesEnabled ? <AdditionalServices /> : null}
         <Process />
         <NonCompete />
         <FAQ />

@@ -1,3 +1,5 @@
+import { friendServicesEnabled } from "@/lib/featureFlags";
+
 export const heroEyebrow = "THE SILENT BUILD TEAM FOR AI AGENCIES";
 
 export const heroH1Line1 = "You sold it.";
@@ -81,11 +83,23 @@ export const scopeMeta = "hello@muteflow.io · UK · Global";
 
 export const footerTagline = "The silent build team for AI agencies.";
 
-export const footerLinks = [
+export type FooterLink = {
+  label: string;
+  href: string;
+};
+
+const baseFooterLinks: readonly FooterLink[] = [
   { label: "Work", href: "#work" },
   { label: "Process", href: "#process" },
   { label: "Scope a build", href: "#scope" },
-] as const;
+];
+
+export const footerLinks: readonly FooterLink[] = friendServicesEnabled
+  ? [
+      ...baseFooterLinks,
+      { label: "Additional services", href: "/additional-services" },
+    ]
+  : baseFooterLinks;
 
 export const footerEmail = "hello@muteflow.io";
 export const footerDomain = "muteflow.io";
