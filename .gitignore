@@ -13,6 +13,7 @@ coverage/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
 *.pem
 
 # Optional: if legacy folder still exists
