@@ -4,7 +4,7 @@ import { faqItems } from "@/lib/content";
 export function FAQ() {
   return (
     <section
-      className="relative z-[2] mx-auto max-w-container px-6 py-20 sm:px-8"
+      className="relative z-[2] mx-auto max-w-container px-6 pb-28 pt-20 sm:px-8 md:pb-40"
       aria-labelledby="faq-heading"
     >
       <h2 id="faq-heading" className="sr-only">

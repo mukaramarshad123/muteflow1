@@ -1,18 +1,39 @@
-# muteflow-web (Next.js)
+# Next.js / Node
+node_modules/
+.next/
+out/
+.vercel/
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.pnp
+.pnp.*
+.yarn/install-state.gz
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pem
+
+# Optional: if legacy folder still exists
 muteflow-web/node_modules/
 muteflow-web/.next/
 muteflow-web/out/
-muteflow-web/.vercel
+muteflow-web/.vercel/
 muteflow-web/.env*.local
 muteflow-web/*.tsbuildinfo
 muteflow-web/next-env.d.ts
 muteflow-web/.pnp
+muteflow-web/.pnp.*
 muteflow-web/.yarn/install-state.gz
-muteflow-web/coverage
+muteflow-web/coverage/
 muteflow-web/npm-debug.log*
 muteflow-web/yarn-debug.log*
 muteflow-web/yarn-error.log*
 muteflow-web/*.pem
+
+# Archives
+*.zip
 
 # OS / editor
 .DS_Store

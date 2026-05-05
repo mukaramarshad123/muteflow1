@@ -1,6 +1,6 @@
-import { Wordmark } from "@/components/brand/Wordmark";
 import { Button } from "@/components/ui/Button";
 import { heroPrimaryCta } from "@/lib/content";
+import Image from "next/image";
 
 export function Nav() {
   return (
@@ -9,8 +9,14 @@ export function Nav() {
       aria-label="Primary"
     >
       <div className="mx-auto flex max-w-container items-center justify-between px-6 sm:px-8">
-        <a href="/" className="min-h-11 min-w-11 shrink-0 py-2">
-          <Wordmark />
+        <a href="/" className="flex min-h-11 min-w-11 shrink-0 items-center gap-3 py-2">
+          <Image
+            src="muteflow-logo-primary.svg"
+            alt="muteflow"
+            width={160}
+            height={40}
+            priority
+          />
         </a>
         <div className="flex items-center gap-6 md:gap-9">
           <div className="hidden items-center gap-9 md:flex">
